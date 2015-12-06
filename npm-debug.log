@@ -1,0 +1,577 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hubot',
+1 verbose cli   'hubot-scripts',
+1 verbose cli   'hubot-diagnostics',
+1 verbose cli   'hubot-help',
+1 verbose cli   'hubot-heroku-keepalive',
+1 verbose cli   'hubot-google-images',
+1 verbose cli   'hubot-google-translate',
+1 verbose cli   'hubot-pugme',
+1 verbose cli   'hubot-maps',
+1 verbose cli   'hubot-redis-brain',
+1 verbose cli   'hubot-rules',
+1 verbose cli   'hubot-shipit',
+1 verbose cli   '--save' ]
+2 info using npm@3.5.1
+3 info using node@v0.10.26
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData hubot
+8 silly fetchPackageMetaData hubot-scripts
+9 silly fetchPackageMetaData hubot-diagnostics
+10 silly fetchPackageMetaData hubot-help
+11 silly fetchPackageMetaData hubot-heroku-keepalive
+12 silly fetchPackageMetaData hubot-google-images
+13 silly fetchPackageMetaData hubot-google-translate
+14 silly fetchPackageMetaData hubot-pugme
+15 silly fetchPackageMetaData hubot-maps
+16 silly fetchPackageMetaData hubot-redis-brain
+17 silly fetchPackageMetaData hubot-rules
+18 silly fetchPackageMetaData hubot-shipit
+19 silly fetchNamedPackageData hubot
+20 silly mapToRegistry name hubot
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/hubot
+24 silly fetchNamedPackageData hubot-scripts
+25 silly mapToRegistry name hubot-scripts
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/hubot-scripts
+29 silly fetchNamedPackageData hubot-diagnostics
+30 silly mapToRegistry name hubot-diagnostics
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/hubot-diagnostics
+34 silly fetchNamedPackageData hubot-help
+35 silly mapToRegistry name hubot-help
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/hubot-help
+39 silly fetchNamedPackageData hubot-heroku-keepalive
+40 silly mapToRegistry name hubot-heroku-keepalive
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/hubot-heroku-keepalive
+44 silly fetchNamedPackageData hubot-google-images
+45 silly mapToRegistry name hubot-google-images
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/hubot-google-images
+49 silly fetchNamedPackageData hubot-google-translate
+50 silly mapToRegistry name hubot-google-translate
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/hubot-google-translate
+54 silly fetchNamedPackageData hubot-pugme
+55 silly mapToRegistry name hubot-pugme
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/hubot-pugme
+59 silly fetchNamedPackageData hubot-maps
+60 silly mapToRegistry name hubot-maps
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/hubot-maps
+64 silly fetchNamedPackageData hubot-redis-brain
+65 silly mapToRegistry name hubot-redis-brain
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry uri https://registry.npmjs.org/hubot-redis-brain
+69 silly fetchNamedPackageData hubot-rules
+70 silly mapToRegistry name hubot-rules
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/hubot-rules
+74 silly fetchNamedPackageData hubot-shipit
+75 silly mapToRegistry name hubot-shipit
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry https://registry.npmjs.org/
+78 silly mapToRegistry uri https://registry.npmjs.org/hubot-shipit
+79 verbose request uri https://registry.npmjs.org/hubot
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 16:01:15
+82 verbose request id 600ff320c4e48581
+83 http request GET https://registry.npmjs.org/hubot
+84 verbose request uri https://registry.npmjs.org/hubot-scripts
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 16:01:15
+87 http request GET https://registry.npmjs.org/hubot-scripts
+88 verbose request uri https://registry.npmjs.org/hubot-diagnostics
+89 verbose request no auth needed
+90 info attempt registry request try #1 at 16:01:15
+91 http request GET https://registry.npmjs.org/hubot-diagnostics
+92 verbose request uri https://registry.npmjs.org/hubot-help
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 16:01:15
+95 http request GET https://registry.npmjs.org/hubot-help
+96 verbose request uri https://registry.npmjs.org/hubot-heroku-keepalive
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 16:01:15
+99 http request GET https://registry.npmjs.org/hubot-heroku-keepalive
+100 verbose request uri https://registry.npmjs.org/hubot-google-images
+101 verbose request no auth needed
+102 info attempt registry request try #1 at 16:01:15
+103 http request GET https://registry.npmjs.org/hubot-google-images
+104 verbose request uri https://registry.npmjs.org/hubot-google-translate
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 16:01:15
+107 http request GET https://registry.npmjs.org/hubot-google-translate
+108 verbose request uri https://registry.npmjs.org/hubot-pugme
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 16:01:15
+111 http request GET https://registry.npmjs.org/hubot-pugme
+112 verbose request uri https://registry.npmjs.org/hubot-maps
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 16:01:15
+115 http request GET https://registry.npmjs.org/hubot-maps
+116 verbose request uri https://registry.npmjs.org/hubot-redis-brain
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 16:01:15
+119 http request GET https://registry.npmjs.org/hubot-redis-brain
+120 verbose request uri https://registry.npmjs.org/hubot-rules
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 16:01:15
+123 http request GET https://registry.npmjs.org/hubot-rules
+124 verbose request uri https://registry.npmjs.org/hubot-shipit
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 16:01:15
+127 http request GET https://registry.npmjs.org/hubot-shipit
+128 http 200 https://registry.npmjs.org/hubot-heroku-keepalive
+129 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+129 verbose headers   etag: '"92CJFO9KFAZPZ8W3WY8KYVZM4"',
+129 verbose headers   'content-type': 'application/json',
+129 verbose headers   'cache-control': 'max-age=60',
+129 verbose headers   'content-length': '11170',
+129 verbose headers   'accept-ranges': 'bytes',
+129 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+129 verbose headers   via: '1.1 varnish',
+129 verbose headers   age: '0',
+129 verbose headers   connection: 'keep-alive',
+129 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+129 verbose headers   'x-cache': 'MISS',
+129 verbose headers   'x-cache-hits': '0',
+129 verbose headers   'x-timer': 'S1449360060.516194,VS0,VE42',
+129 verbose headers   vary: 'Accept' }
+130 silly get cb [ 200,
+130 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+130 silly get     etag: '"92CJFO9KFAZPZ8W3WY8KYVZM4"',
+130 silly get     'content-type': 'application/json',
+130 silly get     'cache-control': 'max-age=60',
+130 silly get     'content-length': '11170',
+130 silly get     'accept-ranges': 'bytes',
+130 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+130 silly get     via: '1.1 varnish',
+130 silly get     age: '0',
+130 silly get     connection: 'keep-alive',
+130 silly get     'x-served-by': 'cache-sjc3122-SJC',
+130 silly get     'x-cache': 'MISS',
+130 silly get     'x-cache-hits': '0',
+130 silly get     'x-timer': 'S1449360060.516194,VS0,VE42',
+130 silly get     vary: 'Accept' } ]
+131 verbose get saving hubot-heroku-keepalive to /Users/Noah/.npm/registry.npmjs.org/hubot-heroku-keepalive/.cache.json
+132 http 200 https://registry.npmjs.org/hubot-diagnostics
+133 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+133 verbose headers   etag: '"106XAJRQ3U3QEUCO9KTFI2EDN"',
+133 verbose headers   'content-type': 'application/json',
+133 verbose headers   'cache-control': 'max-age=60',
+133 verbose headers   'content-length': '2572',
+133 verbose headers   'accept-ranges': 'bytes',
+133 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+133 verbose headers   via: '1.1 varnish',
+133 verbose headers   age: '0',
+133 verbose headers   connection: 'keep-alive',
+133 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+133 verbose headers   'x-cache': 'MISS',
+133 verbose headers   'x-cache-hits': '0',
+133 verbose headers   'x-timer': 'S1449360060.524123,VS0,VE85',
+133 verbose headers   vary: 'Accept' }
+134 silly get cb [ 200,
+134 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+134 silly get     etag: '"106XAJRQ3U3QEUCO9KTFI2EDN"',
+134 silly get     'content-type': 'application/json',
+134 silly get     'cache-control': 'max-age=60',
+134 silly get     'content-length': '2572',
+134 silly get     'accept-ranges': 'bytes',
+134 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+134 silly get     via: '1.1 varnish',
+134 silly get     age: '0',
+134 silly get     connection: 'keep-alive',
+134 silly get     'x-served-by': 'cache-sjc3123-SJC',
+134 silly get     'x-cache': 'MISS',
+134 silly get     'x-cache-hits': '0',
+134 silly get     'x-timer': 'S1449360060.524123,VS0,VE85',
+134 silly get     vary: 'Accept' } ]
+135 verbose get saving hubot-diagnostics to /Users/Noah/.npm/registry.npmjs.org/hubot-diagnostics/.cache.json
+136 http 200 https://registry.npmjs.org/hubot
+137 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+137 verbose headers   etag: '"783BT6EAA2ILKP345ISW9A5OG"',
+137 verbose headers   'content-type': 'application/json',
+137 verbose headers   'cache-control': 'max-age=60',
+137 verbose headers   'content-length': '95653',
+137 verbose headers   'accept-ranges': 'bytes',
+137 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+137 verbose headers   via: '1.1 varnish',
+137 verbose headers   age: '0',
+137 verbose headers   connection: 'keep-alive',
+137 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+137 verbose headers   'x-cache': 'MISS',
+137 verbose headers   'x-cache-hits': '0',
+137 verbose headers   'x-timer': 'S1449360060.523040,VS0,VE37',
+137 verbose headers   vary: 'Accept' }
+138 silly get cb [ 200,
+138 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+138 silly get     etag: '"783BT6EAA2ILKP345ISW9A5OG"',
+138 silly get     'content-type': 'application/json',
+138 silly get     'cache-control': 'max-age=60',
+138 silly get     'content-length': '95653',
+138 silly get     'accept-ranges': 'bytes',
+138 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+138 silly get     via: '1.1 varnish',
+138 silly get     age: '0',
+138 silly get     connection: 'keep-alive',
+138 silly get     'x-served-by': 'cache-sjc3120-SJC',
+138 silly get     'x-cache': 'MISS',
+138 silly get     'x-cache-hits': '0',
+138 silly get     'x-timer': 'S1449360060.523040,VS0,VE37',
+138 silly get     vary: 'Accept' } ]
+139 verbose get saving hubot to /Users/Noah/.npm/registry.npmjs.org/hubot/.cache.json
+140 http 200 https://registry.npmjs.org/hubot-help
+141 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+141 verbose headers   etag: '"A8B501PTOBB54ITLSJOKOA7MY"',
+141 verbose headers   'content-type': 'application/json',
+141 verbose headers   'cache-control': 'max-age=60',
+141 verbose headers   'content-length': '4056',
+141 verbose headers   'accept-ranges': 'bytes',
+141 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+141 verbose headers   via: '1.1 varnish',
+141 verbose headers   age: '0',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+141 verbose headers   'x-cache': 'MISS',
+141 verbose headers   'x-cache-hits': '0',
+141 verbose headers   'x-timer': 'S1449360060.522931,VS0,VE162',
+141 verbose headers   vary: 'Accept' }
+142 silly get cb [ 200,
+142 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+142 silly get     etag: '"A8B501PTOBB54ITLSJOKOA7MY"',
+142 silly get     'content-type': 'application/json',
+142 silly get     'cache-control': 'max-age=60',
+142 silly get     'content-length': '4056',
+142 silly get     'accept-ranges': 'bytes',
+142 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+142 silly get     via: '1.1 varnish',
+142 silly get     age: '0',
+142 silly get     connection: 'keep-alive',
+142 silly get     'x-served-by': 'cache-sjc3133-SJC',
+142 silly get     'x-cache': 'MISS',
+142 silly get     'x-cache-hits': '0',
+142 silly get     'x-timer': 'S1449360060.522931,VS0,VE162',
+142 silly get     vary: 'Accept' } ]
+143 verbose get saving hubot-help to /Users/Noah/.npm/registry.npmjs.org/hubot-help/.cache.json
+144 http 200 https://registry.npmjs.org/hubot-google-translate
+145 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+145 verbose headers   etag: '"1AI1GKUOV2AZHP1ZPKKXLOR1H"',
+145 verbose headers   'content-type': 'application/json',
+145 verbose headers   'cache-control': 'max-age=60',
+145 verbose headers   'content-length': '4476',
+145 verbose headers   'accept-ranges': 'bytes',
+145 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+145 verbose headers   via: '1.1 varnish',
+145 verbose headers   age: '0',
+145 verbose headers   connection: 'keep-alive',
+145 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+145 verbose headers   'x-cache': 'MISS',
+145 verbose headers   'x-cache-hits': '0',
+145 verbose headers   'x-timer': 'S1449360060.649268,VS0,VE40',
+145 verbose headers   vary: 'Accept' }
+146 silly get cb [ 200,
+146 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+146 silly get     etag: '"1AI1GKUOV2AZHP1ZPKKXLOR1H"',
+146 silly get     'content-type': 'application/json',
+146 silly get     'cache-control': 'max-age=60',
+146 silly get     'content-length': '4476',
+146 silly get     'accept-ranges': 'bytes',
+146 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+146 silly get     via: '1.1 varnish',
+146 silly get     age: '0',
+146 silly get     connection: 'keep-alive',
+146 silly get     'x-served-by': 'cache-sjc3123-SJC',
+146 silly get     'x-cache': 'MISS',
+146 silly get     'x-cache-hits': '0',
+146 silly get     'x-timer': 'S1449360060.649268,VS0,VE40',
+146 silly get     vary: 'Accept' } ]
+147 verbose get saving hubot-google-translate to /Users/Noah/.npm/registry.npmjs.org/hubot-google-translate/.cache.json
+148 http 200 https://registry.npmjs.org/hubot-scripts
+149 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+149 verbose headers   etag: '"E24R8AKLMIX5ZONB9MARWTF31"',
+149 verbose headers   'content-type': 'application/json',
+149 verbose headers   'cache-control': 'max-age=60',
+149 verbose headers   'content-length': '63032',
+149 verbose headers   'accept-ranges': 'bytes',
+149 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+149 verbose headers   via: '1.1 varnish',
+149 verbose headers   age: '0',
+149 verbose headers   connection: 'keep-alive',
+149 verbose headers   'x-served-by': 'cache-sjc3121-SJC',
+149 verbose headers   'x-cache': 'MISS',
+149 verbose headers   'x-cache-hits': '0',
+149 verbose headers   'x-timer': 'S1449360060.534534,VS0,VE119',
+149 verbose headers   vary: 'Accept' }
+150 silly get cb [ 200,
+150 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+150 silly get     etag: '"E24R8AKLMIX5ZONB9MARWTF31"',
+150 silly get     'content-type': 'application/json',
+150 silly get     'cache-control': 'max-age=60',
+150 silly get     'content-length': '63032',
+150 silly get     'accept-ranges': 'bytes',
+150 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+150 silly get     via: '1.1 varnish',
+150 silly get     age: '0',
+150 silly get     connection: 'keep-alive',
+150 silly get     'x-served-by': 'cache-sjc3121-SJC',
+150 silly get     'x-cache': 'MISS',
+150 silly get     'x-cache-hits': '0',
+150 silly get     'x-timer': 'S1449360060.534534,VS0,VE119',
+150 silly get     vary: 'Accept' } ]
+151 verbose get saving hubot-scripts to /Users/Noah/.npm/registry.npmjs.org/hubot-scripts/.cache.json
+152 http 200 https://registry.npmjs.org/hubot-pugme
+153 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+153 verbose headers   etag: '"EEKN1R8NSDUC4HZXWND71MDFM"',
+153 verbose headers   'content-type': 'application/json',
+153 verbose headers   'cache-control': 'max-age=60',
+153 verbose headers   'content-length': '2852',
+153 verbose headers   'accept-ranges': 'bytes',
+153 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+153 verbose headers   via: '1.1 varnish',
+153 verbose headers   age: '0',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+153 verbose headers   'x-cache': 'MISS',
+153 verbose headers   'x-cache-hits': '0',
+153 verbose headers   'x-timer': 'S1449360060.724613,VS0,VE40',
+153 verbose headers   vary: 'Accept' }
+154 silly get cb [ 200,
+154 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+154 silly get     etag: '"EEKN1R8NSDUC4HZXWND71MDFM"',
+154 silly get     'content-type': 'application/json',
+154 silly get     'cache-control': 'max-age=60',
+154 silly get     'content-length': '2852',
+154 silly get     'accept-ranges': 'bytes',
+154 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     age: '0',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-sjc3120-SJC',
+154 silly get     'x-cache': 'MISS',
+154 silly get     'x-cache-hits': '0',
+154 silly get     'x-timer': 'S1449360060.724613,VS0,VE40',
+154 silly get     vary: 'Accept' } ]
+155 verbose get saving hubot-pugme to /Users/Noah/.npm/registry.npmjs.org/hubot-pugme/.cache.json
+156 http 200 https://registry.npmjs.org/hubot-google-images
+157 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 verbose headers   etag: '"B371FB1CQ6S39QI1HZTS9NKVH"',
+157 verbose headers   'content-type': 'application/json',
+157 verbose headers   'cache-control': 'max-age=60',
+157 verbose headers   'content-length': '20847',
+157 verbose headers   'accept-ranges': 'bytes',
+157 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+157 verbose headers   via: '1.1 varnish',
+157 verbose headers   age: '0',
+157 verbose headers   connection: 'keep-alive',
+157 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+157 verbose headers   'x-cache': 'MISS',
+157 verbose headers   'x-cache-hits': '0',
+157 verbose headers   'x-timer': 'S1449360060.604297,VS0,VE213',
+157 verbose headers   vary: 'Accept' }
+158 silly get cb [ 200,
+158 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+158 silly get     etag: '"B371FB1CQ6S39QI1HZTS9NKVH"',
+158 silly get     'content-type': 'application/json',
+158 silly get     'cache-control': 'max-age=60',
+158 silly get     'content-length': '20847',
+158 silly get     'accept-ranges': 'bytes',
+158 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+158 silly get     via: '1.1 varnish',
+158 silly get     age: '0',
+158 silly get     connection: 'keep-alive',
+158 silly get     'x-served-by': 'cache-sjc3122-SJC',
+158 silly get     'x-cache': 'MISS',
+158 silly get     'x-cache-hits': '0',
+158 silly get     'x-timer': 'S1449360060.604297,VS0,VE213',
+158 silly get     vary: 'Accept' } ]
+159 verbose get saving hubot-google-images to /Users/Noah/.npm/registry.npmjs.org/hubot-google-images/.cache.json
+160 http 200 https://registry.npmjs.org/hubot-redis-brain
+161 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+161 verbose headers   etag: '"A09HRQQWT6V5UGFY47JCUP9UQ"',
+161 verbose headers   'content-type': 'application/json',
+161 verbose headers   'cache-control': 'max-age=60',
+161 verbose headers   'content-length': '5536',
+161 verbose headers   'accept-ranges': 'bytes',
+161 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+161 verbose headers   via: '1.1 varnish',
+161 verbose headers   age: '0',
+161 verbose headers   connection: 'keep-alive',
+161 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+161 verbose headers   'x-cache': 'MISS',
+161 verbose headers   'x-cache-hits': '0',
+161 verbose headers   'x-timer': 'S1449360060.737918,VS0,VE89',
+161 verbose headers   vary: 'Accept' }
+162 silly get cb [ 200,
+162 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+162 silly get     etag: '"A09HRQQWT6V5UGFY47JCUP9UQ"',
+162 silly get     'content-type': 'application/json',
+162 silly get     'cache-control': 'max-age=60',
+162 silly get     'content-length': '5536',
+162 silly get     'accept-ranges': 'bytes',
+162 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+162 silly get     via: '1.1 varnish',
+162 silly get     age: '0',
+162 silly get     connection: 'keep-alive',
+162 silly get     'x-served-by': 'cache-sjc3123-SJC',
+162 silly get     'x-cache': 'MISS',
+162 silly get     'x-cache-hits': '0',
+162 silly get     'x-timer': 'S1449360060.737918,VS0,VE89',
+162 silly get     vary: 'Accept' } ]
+163 verbose get saving hubot-redis-brain to /Users/Noah/.npm/registry.npmjs.org/hubot-redis-brain/.cache.json
+164 http 200 https://registry.npmjs.org/hubot-rules
+165 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+165 verbose headers   etag: '"BMPTBVMMPVBT70MAM9AGAPBP9"',
+165 verbose headers   'content-type': 'application/json',
+165 verbose headers   'cache-control': 'max-age=60',
+165 verbose headers   'content-length': '4279',
+165 verbose headers   'accept-ranges': 'bytes',
+165 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+165 verbose headers   via: '1.1 varnish',
+165 verbose headers   age: '0',
+165 verbose headers   connection: 'keep-alive',
+165 verbose headers   'x-served-by': 'cache-sjc3121-SJC',
+165 verbose headers   'x-cache': 'MISS',
+165 verbose headers   'x-cache-hits': '0',
+165 verbose headers   'x-timer': 'S1449360060.786788,VS0,VE58',
+165 verbose headers   vary: 'Accept' }
+166 silly get cb [ 200,
+166 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+166 silly get     etag: '"BMPTBVMMPVBT70MAM9AGAPBP9"',
+166 silly get     'content-type': 'application/json',
+166 silly get     'cache-control': 'max-age=60',
+166 silly get     'content-length': '4279',
+166 silly get     'accept-ranges': 'bytes',
+166 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+166 silly get     via: '1.1 varnish',
+166 silly get     age: '0',
+166 silly get     connection: 'keep-alive',
+166 silly get     'x-served-by': 'cache-sjc3121-SJC',
+166 silly get     'x-cache': 'MISS',
+166 silly get     'x-cache-hits': '0',
+166 silly get     'x-timer': 'S1449360060.786788,VS0,VE58',
+166 silly get     vary: 'Accept' } ]
+167 verbose get saving hubot-rules to /Users/Noah/.npm/registry.npmjs.org/hubot-rules/.cache.json
+168 http 200 https://registry.npmjs.org/hubot-shipit
+169 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+169 verbose headers   etag: '"9IPK77V8RI5KCWNN4T6ICXAGY"',
+169 verbose headers   'content-type': 'application/json',
+169 verbose headers   'cache-control': 'max-age=60',
+169 verbose headers   'content-length': '6362',
+169 verbose headers   'accept-ranges': 'bytes',
+169 verbose headers   date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+169 verbose headers   via: '1.1 varnish',
+169 verbose headers   age: '0',
+169 verbose headers   connection: 'keep-alive',
+169 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+169 verbose headers   'x-cache': 'MISS',
+169 verbose headers   'x-cache-hits': '0',
+169 verbose headers   'x-timer': 'S1449360060.836302,VS0,VE41',
+169 verbose headers   vary: 'Accept' }
+170 silly get cb [ 200,
+170 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+170 silly get     etag: '"9IPK77V8RI5KCWNN4T6ICXAGY"',
+170 silly get     'content-type': 'application/json',
+170 silly get     'cache-control': 'max-age=60',
+170 silly get     'content-length': '6362',
+170 silly get     'accept-ranges': 'bytes',
+170 silly get     date: 'Sun, 06 Dec 2015 00:01:00 GMT',
+170 silly get     via: '1.1 varnish',
+170 silly get     age: '0',
+170 silly get     connection: 'keep-alive',
+170 silly get     'x-served-by': 'cache-sjc3120-SJC',
+170 silly get     'x-cache': 'MISS',
+170 silly get     'x-cache-hits': '0',
+170 silly get     'x-timer': 'S1449360060.836302,VS0,VE41',
+170 silly get     vary: 'Accept' } ]
+171 verbose get saving hubot-shipit to /Users/Noah/.npm/registry.npmjs.org/hubot-shipit/.cache.json
+172 http 200 https://registry.npmjs.org/hubot-maps
+173 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+173 verbose headers   etag: '"6IHH2K69FPEROF9F42PVBQ035"',
+173 verbose headers   'content-type': 'application/json',
+173 verbose headers   'cache-control': 'max-age=60',
+173 verbose headers   'content-length': '4230',
+173 verbose headers   'accept-ranges': 'bytes',
+173 verbose headers   date: 'Sun, 06 Dec 2015 00:01:01 GMT',
+173 verbose headers   via: '1.1 varnish',
+173 verbose headers   age: '0',
+173 verbose headers   connection: 'keep-alive',
+173 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+173 verbose headers   'x-cache': 'MISS',
+173 verbose headers   'x-cache-hits': '0',
+173 verbose headers   'x-timer': 'S1449360060.737038,VS0,VE345',
+173 verbose headers   vary: 'Accept' }
+174 silly get cb [ 200,
+174 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+174 silly get     etag: '"6IHH2K69FPEROF9F42PVBQ035"',
+174 silly get     'content-type': 'application/json',
+174 silly get     'cache-control': 'max-age=60',
+174 silly get     'content-length': '4230',
+174 silly get     'accept-ranges': 'bytes',
+174 silly get     date: 'Sun, 06 Dec 2015 00:01:01 GMT',
+174 silly get     via: '1.1 varnish',
+174 silly get     age: '0',
+174 silly get     connection: 'keep-alive',
+174 silly get     'x-served-by': 'cache-sjc3133-SJC',
+174 silly get     'x-cache': 'MISS',
+174 silly get     'x-cache-hits': '0',
+174 silly get     'x-timer': 'S1449360060.737038,VS0,VE345',
+174 silly get     vary: 'Accept' } ]
+175 verbose get saving hubot-maps to /Users/Noah/.npm/registry.npmjs.org/hubot-maps/.cache.json
+176 silly install normalizeTree
+177 silly loadCurrentTree Finishing
+178 silly loadIdealTree Starting
+179 silly install loadIdealTree
+180 silly cloneCurrentTree Starting
+181 silly install cloneCurrentTreeToIdealTree
+182 silly cloneCurrentTree Finishing
+183 silly loadShrinkwrap Starting
+184 silly install loadShrinkwrap
+185 silly loadShrinkwrap Finishing
+186 silly loadAllDepsIntoIdealTree Starting
+187 silly install loadAllDepsIntoIdealTree
+188 silly rollbackFailedOptional Starting
+189 silly rollbackFailedOptional Finishing
+190 silly runTopLevelLifecycles Starting
+191 silly runTopLevelLifecycles Finishing
+192 silly install printInstalled
+193 verbose stack Error: Refusing to install hubot as a dependency of itself
+193 verbose stack     at checkSelf (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:40:14)
+193 verbose stack     at Array.0 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+193 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+193 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+193 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/validate-args.js:15:5
+193 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+193 verbose stack     at Array.forEach (native)
+193 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+193 verbose stack     at Array.forEach (native)
+193 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+194 verbose cwd /Users/Noah/Apps/hubot
+195 error Darwin 15.0.0
+196 error argv "node" "/usr/local/bin/npm" "install" "hubot" "hubot-scripts" "hubot-diagnostics" "hubot-help" "hubot-heroku-keepalive" "hubot-google-images" "hubot-google-translate" "hubot-pugme" "hubot-maps" "hubot-redis-brain" "hubot-rules" "hubot-shipit" "--save"
+197 error node v0.10.26
+198 error npm  v3.5.1
+199 error code ENOSELF
+200 error Refusing to install hubot as a dependency of itself
+201 error If you need help, you may report this error at:
+201 error     <https://github.com/npm/npm/issues>
+202 verbose exit [ 1, true ]
